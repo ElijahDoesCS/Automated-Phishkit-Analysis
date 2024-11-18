@@ -77,6 +77,12 @@
 
 # Rigorous automation plan
 ## Generating automated analyses for detecting the frequency and distribution of the functions found in static analyses
+- Go into each kit and detect likely parent kit
+- Go into each kit and track variance in file structure, size, languages, etc.
+- Go into each kit and classify them as most likely being pre-compromised kits or dynamic kits
+    - Develop a range of distribution
+- Perform a survey in which we compel users to look for items through links
+
 ### Enumerate these funcitonalities and their association with each kit type
 - Develop code to extract such kits using regular expression analyses
 - Possibly analyze frequency of obfuscation techniques, file structure and languages to quantify variance in explaining study struggles
@@ -90,5 +96,3 @@
         - Group similar domain manipulation techniques
             - Purpose 
             - Effectiveness
-    
-    - 
